@@ -13,7 +13,7 @@ spec:
       image: jenkins/inbound-agent:3355.v388858a_47b_33-17
       tty: true
     - name: kaniko
-      image: gcr.io/kaniko-project/executor:latest
+      image: gcr.io/kaniko-project/executor:debug
       command:
         - /busybox/cat
       tty: true
