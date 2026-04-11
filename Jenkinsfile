@@ -28,7 +28,7 @@ spec:
   }
 
   environment {
-    IMAGE_NAME = "sw1ber/myapp"
+    IMAGE_NAME = "swiber/myapp"
     IMAGE_TAG  = "${BUILD_NUMBER}"
   }
 
