@@ -29,7 +29,7 @@ spec:
 
   environment {
     IMAGE_NAME = "swiber/myapp"
-    IMAGE_TAG  = "${BUILD_NUMBER}"
+    IMAGE_TAG  = "${env.BUILD_NUMBER}"
   }
 
   stages {
@@ -103,3 +103,5 @@ EOF
     }
   }
 }
+
+
